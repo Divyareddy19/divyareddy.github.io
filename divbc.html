@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+	<style>
+		*{
+	box-sizing: border-box;
+}
+body
+{
+	margin: 0px;
+	padding: 0px;
+	font: poppins;
+}
+#d{
+	width: 100%;
+	height: 70vh;
+	position: relative;
+
+}
+nav{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: hsla(0, 100%, 50%, 0.3);
+}
+.logo img{
+	height: 55px;
+	}
+.menu{
+	list-style: none;
+	display: flex;
+}
+.menu li a{
+ height: 40px;
+ line-height: 43px;
+ margin: 3;
+ padding: 0px 22px;
+ display: flex;
+ font-size: 1em;
+ font-weight: 500;
+ letter-spacing: 1px;
+ color:black;
+ text-shadow: teal;
+
+}
+a{
+	text-decoration: none;
+}
+.hm{
+	color: black;
+	font-weight: 500;
+	font-size: 1.5;
+	border-bottom: 2px solid;
+}
+.img{
+	width: 1000px;
+	height: 900px;
+}
+.img img{
+	width: 80%;
+	height: 90%;
+	object-fit: contain;
+	clip-path: polygon(19% 0, 100% 0%, 81% 100%, 0% 100%);
+	}
+.main{
+	display: flex;
+	width: 90%;
+	justify-content: space-around;
+	/*align-items: center;*/
+	position: absolute;
+	left: 50%;
+	right: 50%;
+	transform: translate(-50%,-50%);
+}
+.text{
+	text-shadow: 3px 2px 5px pink;
+	padding-top:200px;
+	padding-right: 20px;
+	font-size: 1.5em;
+	}
+	.last{
+		
+		color: black;
+	}
+.button{
+	width: 190px;
+	height: 44px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: black;
+	background-color: skyblue;
+	border-radius: 20px;
+	box-shadow: 5px 10px 30px rgb(68, 39, 2);
+	
+}
+.button:hover{
+background-color: white;
+transition: all ease0 0.2s;
+}
+.menu li a:hover{
+	background-color: black;
+	color: pink;
+	box-shadow: 10px 20px 30px rgb(68, 39, 2);
+	transition: all ease0 0.2s;
+}
+	</style>
+    <head>
+        <title>DIVYA RESUME</title>
+        <link rel="stylesheet" type="text/css" href="divprocss.css">
+        </head>
+        <body>
+        	<section id="d">
+        		<nav class="nav">
+        			<a href="#" class="logo">
+        				<img src="  https://www.designhill.com/design-blog/wp-content/uploads/2019/04/13.jpg"alt ="logo">
+        			</a>
+					<span class="menu-span"></span>
+        			<ul class="menu">
+        				<li><a href="#">HOME</a></li>
+        				<li><a href="#">SKILLS</a></li>
+        				<li><a href="#">RECENT</a></li>
+        				<li><a href="#">CLIENTS</a></li>
+        				<li><a href="#">CONTACTS</a></li>
+        			</ul>
+        			<a href="#"class ="hm"><strong>Say hi!</strong></a>
+        		</nav>
+        		
+        	</section>
+			<div class="main">
+			<div class="img">
+				<img src="https://www.moneycrashers.com/wp-content/uploads/2019/03/female-ceos-influential-women-business.jpg" alt="womenimage">
+
+			</div>
+			
+			 <div class="text">
+				<h1><i>HELLO,<br>I'M DIVYA!!</br></i></h1>
+				<p>way to my vision...</p>
+				<a href="#" class="button">see my portfolio</a>
+				</div>
+				</div>
+        </body>
+</html>
